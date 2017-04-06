@@ -4,7 +4,7 @@
   "description": "compasity-websockets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/RemcoG/websockets/issues"
   },
-  "homepage": "https://github.com/RemcoG/websockets#readme"
+  "homepage": "https://github.com/RemcoG/websockets#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
 }
